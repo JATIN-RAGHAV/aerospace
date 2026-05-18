@@ -71,6 +71,10 @@ run = "move-node-to-workspace 8"
 # 'main' binding mode must be always presented
 [mode.main.binding]
 
+# Resizing
+alt-minus = 'resize smart -50'
+alt-equal = 'resize smart +50'
+
 # Custom app launching binds
 cmd-g = ['exec-and-forget open -a Ghostty']
 cmd-b = ['exec-and-forget open -a "Brave Browser"']
